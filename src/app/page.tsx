@@ -243,7 +243,7 @@ export default function Home() {
       <h3 className="text-xl font-bold mt-2">Results:</h3>
       <div className="grid grid-cols-2">
         <div className="py-2">Low Complexity Fee</div>
-        <div className="py-2">R&nbsp;{formatFee(calculateSacapFee(budget, "low"))}</div>
+        <div className="py-2">R {formatFee(calculateSacapFee(budget, "low"))}</div>
 
         <div className="py-2">Low Complexity JVD Fee</div>
         <div className="py-2">R {formatFee(calculateFee(budget, "low"))}</div>
